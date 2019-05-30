@@ -1,0 +1,19 @@
+current directory: /Users/miwa/app/book_evaluation/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+/Users/miwa/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20190531-2243-nk2xjl.rb extconf.rb
+creating Makefile
+
+current directory: /Users/miwa/app/book_evaluation/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/miwa/app/book_evaluation/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+current directory: /Users/miwa/app/book_evaluation/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20190531-2243-x3379f
